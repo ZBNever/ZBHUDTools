@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443356456197C4C29F0C8671 /* libPods-ZBHUDTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA4E618811BD13BDDE4DC5F /* libPods-ZBHUDTools.a */; };
 		58C450951F8C75940056B5AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C450941F8C75940056B5AD /* AppDelegate.m */; };
 		58C450981F8C75940056B5AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C450971F8C75940056B5AD /* ViewController.m */; };
 		58C4509B1F8C75940056B5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C450991F8C75940056B5AD /* Main.storyboard */; };
 		58C4509D1F8C75940056B5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C4509C1F8C75940056B5AD /* Assets.xcassets */; };
 		58C450A01F8C75940056B5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4509E1F8C75940056B5AD /* LaunchScreen.storyboard */; };
 		58C450A31F8C75940056B5AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C450A21F8C75940056B5AD /* main.m */; };
+		58C450AC1F8C76620056B5AD /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C450AB1F8C76620056B5AD /* Tools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AA4E618811BD13BDDE4DC5F /* libPods-ZBHUDTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZBHUDTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C450901F8C75930056B5AD /* ZBHUDTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBHUDTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C450931F8C75940056B5AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58C450941F8C75940056B5AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,10 @@
 		58C4509F1F8C75940056B5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C450A11F8C75940056B5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C450A21F8C75940056B5AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58C450AA1F8C76620056B5AD /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		58C450AB1F8C76620056B5AD /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		A2DD3D8EE75736DE3965E19C /* Pods-ZBHUDTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBHUDTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D2F465277CD3FC1F2A1DAD /* Pods-ZBHUDTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBHUDTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443356456197C4C29F0C8671 /* libPods-ZBHUDTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				58C450921F8C75930056B5AD /* ZBHUDTools */,
 				58C450911F8C75930056B5AD /* Products */,
+				FAC1B6304C0074E20186A20B /* Pods */,
+				D3A1C90CC04BAE24696347A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,7 @@
 		58C450921F8C75930056B5AD /* ZBHUDTools */ = {
 			isa = PBXGroup;
 			children = (
+				58C450A91F8C76620056B5AD /* Tools */,
 				58C450931F8C75940056B5AD /* AppDelegate.h */,
 				58C450941F8C75940056B5AD /* AppDelegate.m */,
 				58C450961F8C75940056B5AD /* ViewController.h */,
@@ -71,6 +82,32 @@
 			path = ZBHUDTools;
 			sourceTree = "<group>";
 		};
+		58C450A91F8C76620056B5AD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				58C450AA1F8C76620056B5AD /* Tools.h */,
+				58C450AB1F8C76620056B5AD /* Tools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D3A1C90CC04BAE24696347A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA4E618811BD13BDDE4DC5F /* libPods-ZBHUDTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC1B6304C0074E20186A20B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD3D8EE75736DE3965E19C /* Pods-ZBHUDTools.debug.xcconfig */,
+				F0D2F465277CD3FC1F2A1DAD /* Pods-ZBHUDTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58C450A61F8C75940056B5AD /* Build configuration list for PBXNativeTarget "ZBHUDTools" */;
 			buildPhases = (
+				B8D0262CDD25631C2EE09B46 /* [CP] Check Pods Manifest.lock */,
 				58C4508C1F8C75930056B5AD /* Sources */,
 				58C4508D1F8C75930056B5AD /* Frameworks */,
 				58C4508E1F8C75930056B5AD /* Resources */,
+				52EE9816DA6EA573F51110B8 /* [CP] Embed Pods Frameworks */,
+				7BC9EC25843572C36E51D859 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +177,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52EE9816DA6EA573F51110B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC9EC25843572C36E51D859 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8D0262CDD25631C2EE09B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58C4508C1F8C75930056B5AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -145,6 +233,7 @@
 				58C450981F8C75940056B5AD /* ViewController.m in Sources */,
 				58C450A31F8C75940056B5AD /* main.m in Sources */,
 				58C450951F8C75940056B5AD /* AppDelegate.m in Sources */,
+				58C450AC1F8C76620056B5AD /* Tools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +365,7 @@
 		};
 		58C450A71F8C75940056B5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DD3D8EE75736DE3965E19C /* Pods-ZBHUDTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +381,7 @@
 		};
 		58C450A81F8C75940056B5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D2F465277CD3FC1F2A1DAD /* Pods-ZBHUDTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
