@@ -77,7 +77,6 @@
 				58C450971F8C75940056B5AD /* ViewController.m */,
 				58C450991F8C75940056B5AD /* Main.storyboard */,
 				58C4509C1F8C75940056B5AD /* Assets.xcassets */,
-				CA430CFF2074664F007B726A /* Image.xcassets */,
 				58C4509E1F8C75940056B5AD /* LaunchScreen.storyboard */,
 				58C450A11F8C75940056B5AD /* Info.plist */,
 				58C450A21F8C75940056B5AD /* main.m */,
@@ -88,6 +87,7 @@
 		58C450A91F8C76620056B5AD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				CA430CFF2074664F007B726A /* Image.xcassets */,
 				58C450AA1F8C76620056B5AD /* Tools.h */,
 				58C450AB1F8C76620056B5AD /* Tools.m */,
 			);
