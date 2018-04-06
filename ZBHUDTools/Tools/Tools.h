@@ -6,8 +6,6 @@
 //  Copyright © 2017年 Never. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 #import <MBProgressHUD/MBProgressHUD.h>
 
 @interface Tools : NSObject<MBProgressHUDDelegate>
