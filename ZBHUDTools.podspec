@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZBHUDTools"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "MBProgressHUD 封装"
   s.description  = <<-DESC
                     MBProgressHUD 封装 使用简单快捷
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/ZBNever/ZBHUDTools.git", :tag => s.version}
   s.source_files = "ZBHUDTools/Tools/*.{h,m}"
-  s.resource     = "ZBHUDTools/image/*"
+  s.resource     = "ZBHUDTools/Image.xcassets/*"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "ZBHUDTools/Tools/*.h"
   s.requires_arc = true
