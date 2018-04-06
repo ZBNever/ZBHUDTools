@@ -13,9 +13,10 @@ Pod::Spec.new do |s|
   s.author       = { "Never" => "Never1750@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/ZBNever/ZBHUDTools.git", :tag => s.version}
-  s.source_files  = "ZBHUDTools/Tools/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "ZBHUDTools/Tools/*.h"
+  s.source_files = "ZBHUDTools/Tools/*.{h,m}"
+  s.resource     = "ZBHUDTools/image/*"
+  # s.exclude_files = "Classes/Exclude"
+  # s.public_header_files = "ZBHUDTools/Tools/*.h"
   s.requires_arc = true
   s.dependency "MBProgressHUD"
 
