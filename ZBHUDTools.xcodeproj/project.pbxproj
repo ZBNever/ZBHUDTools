@@ -15,6 +15,7 @@
 		58C450A01F8C75940056B5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4509E1F8C75940056B5AD /* LaunchScreen.storyboard */; };
 		58C450A31F8C75940056B5AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C450A21F8C75940056B5AD /* main.m */; };
 		58C450AC1F8C76620056B5AD /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C450AB1F8C76620056B5AD /* Tools.m */; };
+		CA430D002074664F007B726A /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA430CFF2074664F007B726A /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		58C450AA1F8C76620056B5AD /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		58C450AB1F8C76620056B5AD /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		A2DD3D8EE75736DE3965E19C /* Pods-ZBHUDTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBHUDTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools.debug.xcconfig"; sourceTree = "<group>"; };
+		CA430CFF2074664F007B726A /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		F0D2F465277CD3FC1F2A1DAD /* Pods-ZBHUDTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBHUDTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				58C450971F8C75940056B5AD /* ViewController.m */,
 				58C450991F8C75940056B5AD /* Main.storyboard */,
 				58C4509C1F8C75940056B5AD /* Assets.xcassets */,
+				CA430CFF2074664F007B726A /* Image.xcassets */,
 				58C4509E1F8C75940056B5AD /* LaunchScreen.storyboard */,
 				58C450A11F8C75940056B5AD /* Info.plist */,
 				58C450A21F8C75940056B5AD /* main.m */,
@@ -119,8 +122,6 @@
 				58C4508C1F8C75930056B5AD /* Sources */,
 				58C4508D1F8C75930056B5AD /* Frameworks */,
 				58C4508E1F8C75930056B5AD /* Resources */,
-				52EE9816DA6EA573F51110B8 /* [CP] Embed Pods Frameworks */,
-				7BC9EC25843572C36E51D859 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C450A01F8C75940056B5AD /* LaunchScreen.storyboard in Resources */,
+				CA430D002074664F007B726A /* Image.xcassets in Resources */,
 				58C4509D1F8C75940056B5AD /* Assets.xcassets in Resources */,
 				58C4509B1F8C75940056B5AD /* Main.storyboard in Resources */,
 			);
@@ -178,36 +180,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		52EE9816DA6EA573F51110B8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BC9EC25843572C36E51D859 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBHUDTools/Pods-ZBHUDTools-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B8D0262CDD25631C2EE09B46 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
