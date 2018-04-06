@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <MBProgressHUD.h>
+
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @interface Tools : NSObject<MBProgressHUDDelegate>
 //默认方式
