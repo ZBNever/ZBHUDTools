@@ -1,20 +1,19 @@
 //
-//  Tools.m
-//  WallPaper
+//  ZBHUDTools.m
+//  ZBHUDTools
 //
-//  Created by Never on 2017/2/15.
-//  Copyright © 2017年 Never. All rights reserved.
+//  Created by Never on 2018/4/8.
+//  Copyright © 2018年 never. All rights reserved.
 //
 
-#import "Tools.h"
+#import "ZBHUDTools.h"
 
-@class MBProgressHUD;
+@implementation ZBHUDTools
 
-@implementation Tools
 
 //默认样式
 + (MBProgressHUD *)MBProgressHUD:(NSString *)text{
-   MBProgressHUD *HUD = [self creatHUDwith:text andMod:MBProgressHUDModeIndeterminate];
+    MBProgressHUD *HUD = [self creatHUDwith:text andMod:MBProgressHUDModeIndeterminate];
     return HUD;
 }
 
@@ -35,7 +34,7 @@
 }
 //自定义view
 + (MBProgressHUD *)MBProgressHUDCustomView:(NSString *)imageName text:(NSString *)text{
-
+    
     MBProgressHUD *HUD = [self creatHUDwith:text andMod:MBProgressHUDModeCustomView];
     if (!imageName) {
         UIImageView *customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"minion"]];
@@ -49,20 +48,21 @@
 
 //封装
 + (MBProgressHUD *)creatHUDwith:(NSString *)text andMod:(MBProgressHUDMode)mod{
-
+    
     UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
     MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView:window];
     HUD.mode = mod;
     //NO允许点击其他地方，YES不允许点击其他地方
     HUD.userInteractionEnabled = NO;
-    HUD.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    HUD.bezelView.style = MBProgressHUDBackgroundStyleBlur;
 //    HUD.backgroundColor = [UIColor colorWithWhite:0.3 alpha:0.5];
     HUD.label.text = text;
-//    HUD.contentColor = [UIColor whiteColor];
+    //    HUD.contentColor = [UIColor whiteColor];
     HUD.animationType = MBProgressHUDAnimationZoomOut;
     [window addSubview:HUD];
     [HUD showAnimated:YES];
     return HUD;
 }
+
 
 @end
