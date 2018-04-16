@@ -7,6 +7,5 @@ target 'ZBHUDTools' do
 
     pod 'MBProgressHUD'
     pod 'ZBMacroDefine'
-    pod 'ZBUtils'
     
 end
