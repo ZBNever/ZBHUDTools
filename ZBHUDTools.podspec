@@ -2,13 +2,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZBHUDTools"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "MBProgressHUD 封装"
   s.description  = <<-DESC
                     MBProgressHUD 封装 使用简单快捷
                    DESC
 
-  s.homepage     = "https://github.com/ZBNever/"
+  s.homepage     = "https://github.com/ZBNever"
   s.license      = "MIT"
   s.author       = { "Never" => "Never1750@163.com" }
   s.platform     = :ios, "8.0"
@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "MBProgressHUD"
   s.dependency "ZBMacroDefine"
+  s.dependency "ZBUtils"
 end
