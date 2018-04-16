@@ -2,14 +2,15 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZBHUDTools"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "MBProgressHUD 封装"
   s.description  = <<-DESC
                     MBProgressHUD 封装 使用简单快捷
                    DESC
 
-  s.homepage     = "https://github.com/ZBNever"
-  s.license      = "MIT"
+  s.homepage     = "https://github.com/ZBNever/ZBHUDTools"
+  # s.license      = "MIT"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Never" => "Never1750@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/ZBNever/ZBHUDTools.git", :tag => s.version}
