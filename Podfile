@@ -6,6 +6,6 @@ platform :ios,'8.0'
 target 'ZBHUDTools' do
 
     pod 'MBProgressHUD'
-    pod 'ZBMacroDefine',git:'https://gitee.com/zbnever/ZBSpecs.git'
+    pod 'ZBMacroDefine',git:'https://gitee.com/zbnever/ZBMacroDefine.git'
     
 end

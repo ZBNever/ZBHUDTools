@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZBHUDTools"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "MBProgressHUD 封装"
   s.description  = <<-DESC
                     MBProgressHUD 封装 使用简单快捷
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = "ZBHUDTools/Tools/*.h"
   s.requires_arc = true
   s.dependency "MBProgressHUD"
-
+  s.dependency "ZBMacroDefine"
 end
